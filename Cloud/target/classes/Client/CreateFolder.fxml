@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="81.0" prefWidth="348.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.CreateNewFolder">
+   <children>
+      <TextField layoutX="12.0" layoutY="39.0" prefHeight="25.0" prefWidth="257.0" />
+      <Button layoutX="282.0" layoutY="39.0" mnemonicParsing="false" text="Button" />
+      <Text layoutX="45.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please, Input folder name:" />
+      <Button layoutX="320.0" layoutY="1.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="28.0" onAction="#Close" text="X" />
+   </children>
+</Pane>
